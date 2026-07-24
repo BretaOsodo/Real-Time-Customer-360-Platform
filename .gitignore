@@ -1,0 +1,37 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Spark
+spark-warehouse/
+metastore_db/
+logs/
+*.log
+
+# Docker
+docker-volume/
+volumes/
+
+# Kafka
+kafka-data/
+kraft-combined-logs/
+
+# PostgreSQL
+postgres-data/
+
+# Grafana
+grafana-data/
+
+# Prometheus
+prometheus-data/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
